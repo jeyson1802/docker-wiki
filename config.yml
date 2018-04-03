@@ -47,7 +47,7 @@ uploads:
 # ---------------------------------------------------------------------
 # Possible values: en, de, es, fa, fr, ja, ko, nl, pt, ru, sr, sv, tr or zh
 
-lang: es
+lang: en
 
 # Enable for right to left languages (e.g. arabic):
 langRtl: false
