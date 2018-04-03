@@ -121,28 +121,7 @@ db: mongodb://wikidb:27017/wiki
 # Git Connection Info
 # ---------------------------------------------------------------------
 
-git:
-  url: http://10.230.168.221
-  branch: master
-  auth:
-
-    # Type: basic or ssh
-    type: basic
-
-    # Only for Basic authentication:
-    username: root
-    password: fabrica2018
-
-    # Only for SSH authentication:
-    # privateKey: /etc/wiki/keys/git.pem
-
-    sslVerify: false
-
-  # Default email to use as commit author
-  serverEmail: jventura@consorcio-swf.com
-
-  # Whether to use user email as author in commits
-  showUserEmail: true
+git: false
 
 # ---------------------------------------------------------------------
 # Features
